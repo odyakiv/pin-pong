@@ -79,10 +79,10 @@ while game:
             window.blit(lose_1, (200,200))
             game_over = True
 
-        racket_1.reset
-        racket_r.reset
-        ball.reset
+        racket_1.reset()
+        racket_r.reset()
+        ball.reset()
 
     display.update()
-    clock.ti
+    clock.tick(FPS)
         
